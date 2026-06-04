@@ -1,0 +1,19 @@
+{
+  "name": "lp-generator",
+  "version": "1.0.0",
+  "scripts": {
+    "generate": "ts-node scripts/run.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.100.1",
+    "dotenv": "^16.0.0",
+    "js-yaml": "^4.1.0",
+    "playwright": "^1.44.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}

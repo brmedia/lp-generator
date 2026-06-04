@@ -1,0 +1,8 @@
+.env
+node_modules/
+dist/
+
+# アウトプット（生成された施設データ・ログ）
+facilities/*/
+docs/
+
